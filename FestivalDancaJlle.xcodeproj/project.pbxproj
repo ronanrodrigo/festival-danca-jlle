@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC34161D15168300F12CCD /* LaunchScreen.storyboard */; };
+		4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */; };
+		4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A513086AED890C78278EA /* Assets.xcassets */; };
+		5AD73378811943E80F9A39CE /* Pods_FestivalDancaJlle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32276767850E9612B677068 /* Pods_FestivalDancaJlle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalDancaJlle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FC34171D15168300F12CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B7A5059AB2C714474AE34DF /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		4B7A513086AED890C78278EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B7A574B59A61C442963C7EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78B4B4DCD5944CFF434A8905 /* Pods-FestivalDancaJlle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalDancaJlle.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalDancaJlle/Pods-FestivalDancaJlle.release.xcconfig"; sourceTree = "<group>"; };
+		8AFC5D26C0F2950AEE120455 /* Pods-FestivalDancaJlle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalDancaJlle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalDancaJlle/Pods-FestivalDancaJlle.debug.xcconfig"; sourceTree = "<group>"; };
+		C32276767850E9612B677068 /* Pods_FestivalDancaJlle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestivalDancaJlle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DB45921D1514BB00447FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD73378811943E80F9A39CE /* Pods_FestivalDancaJlle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DB458C1D1514BB00447FD7 = {
+			isa = PBXGroup;
+			children = (
+				34DB45971D1514BB00447FD7 /* FestivalDancaJlle */,
+				34DB45961D1514BB00447FD7 /* Products */,
+				DC314F8A8746AB21A8F836F2 /* Pods */,
+				B2D2887D3998BFDD1F0BAD33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34DB45961D1514BB00447FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DB45971D1514BB00447FD7 /* FestivalDancaJlle */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */,
+			);
+			path = FestivalDancaJlle;
+			sourceTree = "<group>";
+		};
+		4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */,
+				4B7A513086AED890C78278EA /* Assets.xcassets */,
+				4B7A5059AB2C714474AE34DF /* BridgingHeader.h */,
+				4B7A574B59A61C442963C7EE /* Info.plist */,
+				34FC34161D15168300F12CCD /* LaunchScreen.storyboard */,
+			);
+			path = ApplicationBase;
+			sourceTree = "<group>";
+		};
+		B2D2887D3998BFDD1F0BAD33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C32276767850E9612B677068 /* Pods_FestivalDancaJlle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC314F8A8746AB21A8F836F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFC5D26C0F2950AEE120455 /* Pods-FestivalDancaJlle.debug.xcconfig */,
+				78B4B4DCD5944CFF434A8905 /* Pods-FestivalDancaJlle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DB45941D1514BB00447FD7 /* FestivalDancaJlle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DB45A21D1514BB00447FD7 /* Build configuration list for PBXNativeTarget "FestivalDancaJlle" */;
+			buildPhases = (
+				5A0C4B6A6E7834E662B25CD4 /* [CP] Check Pods Manifest.lock */,
+				34DB45911D1514BB00447FD7 /* Sources */,
+				34DB45921D1514BB00447FD7 /* Frameworks */,
+				34DB45931D1514BB00447FD7 /* Resources */,
+				DF84A155E0234720325DABA3 /* [CP] Embed Pods Frameworks */,
+				1C262C5B70DE48C344F5740B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FestivalDancaJlle;
+			productName = FestivalDancaJlle;
+			productReference = 34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DB458D1D1514BB00447FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ronan Rodrigo Nunes";
+				TargetAttributes = {
+					34DB45941D1514BB00447FD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34DB45901D1514BB00447FD7 /* Build configuration list for PBXProject "FestivalDancaJlle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34DB458C1D1514BB00447FD7;
+			productRefGroup = 34DB45961D1514BB00447FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DB45941D1514BB00447FD7 /* FestivalDancaJlle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DB45931D1514BB00447FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */,
+				34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C262C5B70DE48C344F5740B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalDancaJlle/Pods-FestivalDancaJlle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0C4B6A6E7834E662B25CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF84A155E0234720325DABA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalDancaJlle/Pods-FestivalDancaJlle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DB45911D1514BB00447FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34FC34161D15168300F12CCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FC34171D15168300F12CCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34DB45A01D1514BB00447FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34DB45A11D1514BB00447FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34DB45A31D1514BB00447FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFC5D26C0F2950AEE120455 /* Pods-FestivalDancaJlle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/FestivalDancaJlle/ApplicationBase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FestivalDancaJlle/ApplicationBase/BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		34DB45A41D1514BB00447FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B4B4DCD5944CFF434A8905 /* Pods-FestivalDancaJlle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/FestivalDancaJlle/ApplicationBase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FestivalDancaJlle/ApplicationBase/BridgingHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DB45901D1514BB00447FD7 /* Build configuration list for PBXProject "FestivalDancaJlle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB45A01D1514BB00447FD7 /* Debug */,
+				34DB45A11D1514BB00447FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DB45A21D1514BB00447FD7 /* Build configuration list for PBXNativeTarget "FestivalDancaJlle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB45A31D1514BB00447FD7 /* Debug */,
+				34DB45A41D1514BB00447FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DB458D1D1514BB00447FD7 /* Project object */;
+}
