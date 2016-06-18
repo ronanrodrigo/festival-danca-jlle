@@ -8,8 +8,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListEventsViewController" customModule="FestivalDancaJlle" customModuleProvider="target">
             <connections>
                 <outlet property="loginButton" destination="aOf-yD-Dl7" id="0PL-Gn-CpP"/>
-                <outlet property="loginButtonBottom" destination="Pox-uz-dF0" id="meV-ig-VEB"/>
-                <outlet property="loginButtonHeight" destination="b6Z-gB-Kry" id="ge0-8K-t9R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
