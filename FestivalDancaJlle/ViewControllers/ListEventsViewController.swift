@@ -1,4 +1,5 @@
 import UIKit
+import FBSDKLoginKit
 import FestivalDancaJlleCore
 
 class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
@@ -11,6 +12,13 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureSession()
+    }
+
+    private func configureSession() {
+        if FBSDKAccessToken.currentAccessToken() != nil {
+            loginButton.hidden = true
+        }
     }
 
     // MARK: Actions
