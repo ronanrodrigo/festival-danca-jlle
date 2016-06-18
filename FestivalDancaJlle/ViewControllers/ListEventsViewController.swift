@@ -7,17 +7,9 @@ class ListEventsViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func didTappedAtLoginButton(sender: AnyObject) {
-        FBSDKLoginManager().logInWithReadPermissions([""], fromViewController: self,
-            handler: { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
-                if error != nil {
-                    print("Process error")
-                } else if result!.isCancelled {
-                    print("Cancelled")
-                } else {
-                    print("Logged in")
-                }
-        })
+    // MARK: Actions
+
+    @IBAction func didTappedAtLogin(sender: UIButton) {
     }
 
 }

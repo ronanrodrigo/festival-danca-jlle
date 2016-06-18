@@ -22,17 +22,17 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOf-yD-Dl7">
-                    <rect key="frame" x="0.0" y="560" width="600" height="40"/>
+                    <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="b6Z-gB-Kry"/>
+                        <constraint firstAttribute="height" constant="50" id="b6Z-gB-Kry"/>
                     </constraints>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Entrar com Facebook">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <connections>
-                        <action selector="didTappedAtLoginButton:" destination="-1" eventType="touchUpInside" id="yXE-42-hx9"/>
+                        <action selector="didTappedAtLogin:" destination="-1" eventType="touchUpInside" id="jdf-dt-fmW"/>
                     </connections>
                 </button>
             </subviews>
