@@ -11,4 +11,5 @@ class ListEventsPresenterSpy: ListEventsPresenter {
     func error(error: NSError) {
         errorSpied = true
     }
+
 }

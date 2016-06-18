@@ -32,4 +32,5 @@ class ListEventsUsecaseTests: XCTestCase {
         XCTAssertTrue(listEventsPresenterSpy.errorSpied)
         XCTAssertFalse(listEventsPresenterSpy.successSpied)
     }
+
 }

@@ -21,9 +21,26 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOf-yD-Dl7">
+                    <rect key="frame" x="0.0" y="560" width="600" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="b6Z-gB-Kry"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Entrar com Facebook">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTappedAtLoginButton:" destination="-1" eventType="touchUpInside" id="yXE-42-hx9"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="aOf-yD-Dl7" secondAttribute="trailing" id="516-gi-VQl"/>
+                <constraint firstItem="aOf-yD-Dl7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Mjf-1u-MBC"/>
+                <constraint firstAttribute="bottom" secondItem="aOf-yD-Dl7" secondAttribute="bottom" id="Pox-uz-dF0"/>
                 <constraint firstItem="j8Q-D8-Tqa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Rzo-wC-qQW"/>
                 <constraint firstItem="j8Q-D8-Tqa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zOR-lz-f1w"/>
             </constraints>

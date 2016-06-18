@@ -10,10 +10,11 @@ public struct ListEventsUsecase {
     }
 
     public func list() {
-        eventsGateway.list({ (events: [Event]) in
+        eventsGateway.list({ events in
             self.listEventsPresenter.success(events)
-        }, errorHandler: {(error: NSError) in
+        }, errorHandler: { error in
             self.listEventsPresenter.error(error)
         })
     }
+
 }

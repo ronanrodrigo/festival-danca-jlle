@@ -12,4 +12,5 @@ class EventsGatewaySpy: EventsGateway {
         }
         listSpied = true
     }
+
 }
