@@ -38,6 +38,7 @@
 		4B7A5BC77DEB7E3A00E71B4A /* ListEventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */; };
 		4B7A5C5A196C717010F1F44B /* LoginWithFacebookUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C9A9503746632273ABC /* LoginWithFacebookUsecase.swift */; };
 		4B7A5D8C3FFF154870841B13 /* ListEventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */; };
+		4B7A5DEBF5835F53E3169F54 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A58EA009E556410F5D207 /* Localizable.strings */; };
 		4B7A5EC3D4F4E774011DF722 /* ListEventsUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5DAE48A33219523E04D4 /* ListEventsUsecaseFactory.swift */; };
 		4B7A5F4119A0CC422A215DA2 /* ListEventsPresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A55C2F99C7D8AC3FDD31E /* ListEventsPresenterSpy.swift */; };
 		4B7A5F7E88B7F05B6A044E7B /* LoginGatewaySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5984607C72BBE4BFBB2E /* LoginGatewaySpy.swift */; };
@@ -113,6 +114,7 @@
 		4B7A578AF9F7AB5E391C67AE /* LoginWithFacebookPresenterSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookPresenterSpy.swift; sourceTree = "<group>"; };
 		4B7A580AA97F5CFF2DBC1555 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		4B7A58DFC1A1F92AB4CB81DB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4B7A58EA009E556410F5D207 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		4B7A5984607C72BBE4BFBB2E /* LoginGatewaySpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginGatewaySpy.swift; sourceTree = "<group>"; };
 		4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsUsecaseTests.swift; sourceTree = "<group>"; };
 		4B7A5B905126826B7C7BEFF2 /* LoginGatewayFacebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginGatewayFacebook.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				4B7A5059AB2C714474AE34DF /* BridgingHeader.h */,
 				4B7A574B59A61C442963C7EE /* Info.plist */,
 				34FC34161D15168300F12CCD /* LaunchScreen.storyboard */,
+				4B7A58EA009E556410F5D207 /* Localizable.strings */,
 			);
 			path = ApplicationBase;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */,
 				4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */,
 				34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */,
+				4B7A5DEBF5835F53E3169F54 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
