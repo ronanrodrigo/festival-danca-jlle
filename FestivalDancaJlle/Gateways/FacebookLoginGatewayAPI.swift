@@ -9,17 +9,16 @@ class FacebookLoginGatewayAPI: FacebookLoginGateway {
         self.viewController = viewController
     }
 
-    func login(successHandler: (token: String, userID: String) -> (), errorHandler: (error:NSError) -> (),
-               cancelHandler: () -> ()) {
-        FBSDKLoginManager().logInWithReadPermissions([""], fromViewController: viewController,
-            handler: { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
+    func login(successHandler: (token: String, userID: String) -> (), errorHandler: (error:NSError) -> (), cancelHandler: () -> ()) {
+        FBSDKLoginManager().logInWithReadPermissions([""], fromViewController: viewController, handler:
+            { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
                 if let _error = error {
+                    FBSDKLoginManager().logOut()
                     errorHandler(error: _error)
                 }
-                guard let _result = result else {
-                    return
-                }
+                guard let _result = result else { return }
                 if _result.isCancelled {
+                    FBSDKLoginManager().logOut()
                     cancelHandler()
                 } else {
                     let token = _result.token.tokenString

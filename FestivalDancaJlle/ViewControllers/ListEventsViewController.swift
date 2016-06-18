@@ -26,16 +26,10 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
     }
 
     func cancel() {
-        hideLoginButton()
+        loginButton.setTitle("Tente entrar novamente", forState: .Normal)
     }
 
     func success(token: String, userID: String) {
-        hideLoginButton()
-    }
-
-    // MARK: Other functions
-
-    private func hideLoginButton() {
         loginButton.hidden = true
     }
 
