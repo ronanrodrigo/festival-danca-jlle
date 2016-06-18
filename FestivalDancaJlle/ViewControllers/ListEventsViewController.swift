@@ -3,7 +3,11 @@ import FestivalDancaJlleCore
 
 class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
 
+    // MARK: Outlets
+
     @IBOutlet weak var loginButton: UIButton!
+
+    // MARK: Setup
 
     override func viewDidLoad() {
         super.viewDidLoad()
