@@ -2,6 +2,7 @@ import Foundation
 
 public protocol Event {
     var id: NSNumber? { get set }
+    var name: NSString? { get set }
     var startTime: NSDate? { get set }
     var endTime: NSDate? { get set }
     var coverUrl: NSString? { get set }
@@ -12,10 +13,26 @@ public protocol Event {
 
 public struct EventStruct: Event {
     public var id: NSNumber?
+    public var name: NSString?
     public var startTime: NSDate?
     public var endTime: NSDate?
     public var coverUrl: NSString?
     public var coverData: NSData?
     public var description: NSString?
     public var place: Place?
+
+    public init() {
+
+    }
+
+    public init(id: NSNumber?, name: NSString?, startTime: NSDate?, endTime: NSDate?, coverUrl: NSString?, coverData: NSData?, description: NSString?, place: Place?) {
+        self.id = id
+        self.name = name
+        self.startTime = startTime
+        self.endTime = endTime
+        self.coverUrl = coverUrl
+        self.coverData = coverData
+        self.description = description
+        self.place = place
+    }
 }

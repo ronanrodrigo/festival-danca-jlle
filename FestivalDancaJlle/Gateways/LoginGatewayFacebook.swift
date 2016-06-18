@@ -10,7 +10,8 @@ class LoginGatewayFacebook: LoginGateway {
     }
 
     func login(successHandler: (token: String, userID: String) -> (), errorHandler: (error: NSError) -> (), cancelHandler: () -> ()) {
-        FBSDKLoginManager().logInWithReadPermissions([""], fromViewController: viewController, handler: { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
+        FBSDKLoginManager().logInWithReadPermissions(["user_events", "user_friends", "public_profile"], fromViewController: viewController,
+            handler: { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
                 if let error = error {
                     FBSDKLoginManager().logOut()
                     errorHandler(error: error)
