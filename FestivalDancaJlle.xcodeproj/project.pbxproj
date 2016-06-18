@@ -9,16 +9,65 @@
 /* Begin PBXBuildFile section */
 		34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC34161D15168300F12CCD /* LaunchScreen.storyboard */; };
 		34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FC341C1D15187400F12CCD /* ListEventsViewController.xib */; };
+		34FC34271D151A1600F12CCD /* FestivalDancaJlleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FC34261D151A1600F12CCD /* FestivalDancaJlleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FC342E1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
+		34FC34351D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */; };
+		34FC34391D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
+		34FC343A1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */; };
 		4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A513086AED890C78278EA /* Assets.xcassets */; };
 		4B7A5A79B226EA9FA8EF6627 /* ListEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */; };
 		5AD73378811943E80F9A39CE /* Pods_FestivalDancaJlle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32276767850E9612B677068 /* Pods_FestivalDancaJlle.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		34FC342F1D151A1600F12CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DB458D1D1514BB00447FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FC34231D151A1600F12CCD;
+			remoteInfo = FestivalDancaJlleCore;
+		};
+		34FC34311D151A1600F12CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DB458D1D1514BB00447FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DB45941D1514BB00447FD7;
+			remoteInfo = FestivalDancaJlle;
+		};
+		34FC34371D151A1600F12CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DB458D1D1514BB00447FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FC34231D151A1600F12CCD;
+			remoteInfo = FestivalDancaJlleCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34FC34401D151A1600F12CCD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34FC343A1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalDancaJlle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC34171D15168300F12CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34FC341C1D15187400F12CCD /* ListEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListEventsViewController.xib; sourceTree = "<group>"; };
+		34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FestivalDancaJlleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FC34261D151A1600F12CCD /* FestivalDancaJlleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FestivalDancaJlleCore.h; sourceTree = "<group>"; };
+		34FC34281D151A1600F12CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FC342D1D151A1600F12CCD /* FestivalDancaJlleCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalDancaJlleCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalDancaJlleCoreTests.swift; sourceTree = "<group>"; };
+		34FC34361D151A1600F12CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7A5059AB2C714474AE34DF /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		4B7A513086AED890C78278EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsViewController.swift; sourceTree = "<group>"; };
@@ -34,7 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FC34391D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */,
 				5AD73378811943E80F9A39CE /* Pods_FestivalDancaJlle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FC34201D151A1600F12CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FC342A1D151A1600F12CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FC342E1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				34DB45971D1514BB00447FD7 /* FestivalDancaJlle */,
+				34FC34251D151A1600F12CCD /* FestivalDancaJlleCore */,
+				34FC34331D151A1600F12CCD /* FestivalDancaJlleCoreTests */,
 				34DB45961D1514BB00447FD7 /* Products */,
 				DC314F8A8746AB21A8F836F2 /* Pods */,
 				B2D2887D3998BFDD1F0BAD33 /* Frameworks */,
@@ -55,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */,
+				34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */,
+				34FC342D1D151A1600F12CCD /* FestivalDancaJlleCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +136,24 @@
 				4B7A5B096A0AA15B37356513 /* Views */,
 			);
 			path = FestivalDancaJlle;
+			sourceTree = "<group>";
+		};
+		34FC34251D151A1600F12CCD /* FestivalDancaJlleCore */ = {
+			isa = PBXGroup;
+			children = (
+				34FC34261D151A1600F12CCD /* FestivalDancaJlleCore.h */,
+				34FC34281D151A1600F12CCD /* Info.plist */,
+			);
+			path = FestivalDancaJlleCore;
+			sourceTree = "<group>";
+		};
+		34FC34331D151A1600F12CCD /* FestivalDancaJlleCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */,
+				34FC34361D151A1600F12CCD /* Info.plist */,
+			);
+			path = FestivalDancaJlleCoreTests;
 			sourceTree = "<group>";
 		};
 		4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */ = {
@@ -116,6 +203,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		34FC34211D151A1600F12CCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FC34271D151A1600F12CCD /* FestivalDancaJlleCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		34DB45941D1514BB00447FD7 /* FestivalDancaJlle */ = {
 			isa = PBXNativeTarget;
@@ -127,15 +225,54 @@
 				34DB45931D1514BB00447FD7 /* Resources */,
 				DF84A155E0234720325DABA3 /* [CP] Embed Pods Frameworks */,
 				1C262C5B70DE48C344F5740B /* [CP] Copy Pods Resources */,
+				34FC34401D151A1600F12CCD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				34FC34381D151A1600F12CCD /* PBXTargetDependency */,
 			);
 			name = FestivalDancaJlle;
 			productName = FestivalDancaJlle;
 			productReference = 34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */;
 			productType = "com.apple.product-type.application";
+		};
+		34FC34231D151A1600F12CCD /* FestivalDancaJlleCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FC343F1D151A1600F12CCD /* Build configuration list for PBXNativeTarget "FestivalDancaJlleCore" */;
+			buildPhases = (
+				34FC341F1D151A1600F12CCD /* Sources */,
+				34FC34201D151A1600F12CCD /* Frameworks */,
+				34FC34211D151A1600F12CCD /* Headers */,
+				34FC34221D151A1600F12CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FestivalDancaJlleCore;
+			productName = FestivalDancaJlleCore;
+			productReference = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34FC342C1D151A1600F12CCD /* FestivalDancaJlleCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FC34411D151A1600F12CCD /* Build configuration list for PBXNativeTarget "FestivalDancaJlleCoreTests" */;
+			buildPhases = (
+				34FC34291D151A1600F12CCD /* Sources */,
+				34FC342A1D151A1600F12CCD /* Frameworks */,
+				34FC342B1D151A1600F12CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FC34301D151A1600F12CCD /* PBXTargetDependency */,
+				34FC34321D151A1600F12CCD /* PBXTargetDependency */,
+			);
+			name = FestivalDancaJlleCoreTests;
+			productName = FestivalDancaJlleCoreTests;
+			productReference = 34FC342D1D151A1600F12CCD /* FestivalDancaJlleCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +286,13 @@
 				TargetAttributes = {
 					34DB45941D1514BB00447FD7 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					34FC34231D151A1600F12CCD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					34FC342C1D151A1600F12CCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 34DB45941D1514BB00447FD7;
 					};
 				};
 			};
@@ -166,6 +310,8 @@
 			projectRoot = "";
 			targets = (
 				34DB45941D1514BB00447FD7 /* FestivalDancaJlle */,
+				34FC34231D151A1600F12CCD /* FestivalDancaJlleCore */,
+				34FC342C1D151A1600F12CCD /* FestivalDancaJlleCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +324,20 @@
 				34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */,
 				4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */,
 				34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FC34221D151A1600F12CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FC342B1D151A1600F12CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +401,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34FC341F1D151A1600F12CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FC34291D151A1600F12CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FC34351D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FC34301D151A1600F12CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FC34231D151A1600F12CCD /* FestivalDancaJlleCore */;
+			targetProxy = 34FC342F1D151A1600F12CCD /* PBXContainerItemProxy */;
+		};
+		34FC34321D151A1600F12CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DB45941D1514BB00447FD7 /* FestivalDancaJlle */;
+			targetProxy = 34FC34311D151A1600F12CCD /* PBXContainerItemProxy */;
+		};
+		34FC34381D151A1600F12CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FC34231D151A1600F12CCD /* FestivalDancaJlleCore */;
+			targetProxy = 34FC34371D151A1600F12CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		34FC34161D15168300F12CCD /* LaunchScreen.storyboard */ = {
@@ -364,6 +557,68 @@
 			};
 			name = Release;
 		};
+		34FC343B1D151A1600F12CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FestivalDancaJlleCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlleCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FC343C1D151A1600F12CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FestivalDancaJlleCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlleCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FC343D1D151A1600F12CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FestivalDancaJlleCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlleCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FestivalDancaJlle.app/FestivalDancaJlle";
+			};
+			name = Debug;
+		};
+		34FC343E1D151A1600F12CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FestivalDancaJlleCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.FestivalDancaJlleCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FestivalDancaJlle.app/FestivalDancaJlle";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -384,6 +639,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		34FC343F1D151A1600F12CCD /* Build configuration list for PBXNativeTarget "FestivalDancaJlleCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FC343B1D151A1600F12CCD /* Debug */,
+				34FC343C1D151A1600F12CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34FC34411D151A1600F12CCD /* Build configuration list for PBXNativeTarget "FestivalDancaJlleCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FC343D1D151A1600F12CCD /* Debug */,
+				34FC343E1D151A1600F12CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
