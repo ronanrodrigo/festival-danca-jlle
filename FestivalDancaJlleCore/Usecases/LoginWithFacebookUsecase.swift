@@ -1,6 +1,7 @@
 import Foundation
 
 public struct LoginWithFacebookUsecase {
+
     var facebookLoginGateway: FacebookLoginGateway
     var loginWithFacebookPresenter: LoginWithFacebookPresenter
 
@@ -18,4 +19,5 @@ public struct LoginWithFacebookUsecase {
             self.loginWithFacebookPresenter.cancel()
         })
     }
+
 }

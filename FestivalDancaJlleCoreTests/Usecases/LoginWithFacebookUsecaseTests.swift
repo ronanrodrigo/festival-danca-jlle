@@ -26,9 +26,9 @@ class LoginWithFacebookUsecaseTests: XCTestCase {
     }
 
     func testShouldGetErrorWhenErrorOccour() {
-        facebookLoginGatewaySpy.shouldSuccessed = false;
-        facebookLoginGatewaySpy.shouldCancel = false;
-        facebookLoginGatewaySpy.shouldError = true;
+        facebookLoginGatewaySpy.shouldSuccessed = false
+        facebookLoginGatewaySpy.shouldCancel = false
+        facebookLoginGatewaySpy.shouldError = true
 
         loginWithFacebookUsecase.login()
 
@@ -39,9 +39,9 @@ class LoginWithFacebookUsecaseTests: XCTestCase {
     }
 
     func testShouldCancelWhenWasCanceled() {
-        facebookLoginGatewaySpy.shouldSuccessed = false;
-        facebookLoginGatewaySpy.shouldError = false;
-        facebookLoginGatewaySpy.shouldCancel = true;
+        facebookLoginGatewaySpy.shouldSuccessed = false
+        facebookLoginGatewaySpy.shouldError = false
+        facebookLoginGatewaySpy.shouldCancel = true
 
         loginWithFacebookUsecase.login()
 
@@ -50,4 +50,5 @@ class LoginWithFacebookUsecaseTests: XCTestCase {
         XCTAssertFalse(loginWithFacebookPresenterSpy.successSpied)
         XCTAssertFalse(loginWithFacebookPresenterSpy.errorSpied)
     }
+
 }
