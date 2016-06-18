@@ -59,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */,
+				4B7A5CFF047655D40032904F /* ViewControllers */,
+				4B7A5B096A0AA15B37356513 /* Views */,
 			);
 			path = FestivalDancaJlle;
 			sourceTree = "<group>";
@@ -73,6 +75,20 @@
 				34FC34161D15168300F12CCD /* LaunchScreen.storyboard */,
 			);
 			path = ApplicationBase;
+			sourceTree = "<group>";
+		};
+		4B7A5B096A0AA15B37356513 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B7A5CFF047655D40032904F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B2D2887D3998BFDD1F0BAD33 /* Frameworks */ = {

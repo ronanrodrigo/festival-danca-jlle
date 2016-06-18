@@ -4,4 +4,4 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 
-#endif /* BridgingHeader_h */
+#endif
