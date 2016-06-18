@@ -13,13 +13,22 @@
 		34FC342E1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
 		34FC34391D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
 		34FC343A1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B7A5031AF6EAEC2045E8B4F /* EventsGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */; };
+		4B7A50327D20F96EC99DFACE /* ListEventsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */; };
 		4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */; };
+		4B7A50EA2C47745E6F6EDCCF /* EventsGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */; };
+		4B7A53E5CFB3CD38036B782C /* EventsGatewaySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C89852887321CB59E2E /* EventsGatewaySpy.swift */; };
 		4B7A54BC5440645FBE174D22 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A58DFC1A1F92AB4CB81DB /* Event.swift */; };
 		4B7A54FF1C9F218B8C36FA42 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A506F4AFD376DADA4B1EA /* Location.swift */; };
 		4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A513086AED890C78278EA /* Assets.xcassets */; };
 		4B7A56A61E652CAE371AF7FA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A580AA97F5CFF2DBC1555 /* Place.swift */; };
+		4B7A59926C219385C6E95EDA /* ListEventsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */; };
+		4B7A5A6A0DC21DDF4324EB4A /* ListEventsUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */; };
 		4B7A5A79B226EA9FA8EF6627 /* ListEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */; };
 		4B7A5ACE4CF474D43568E002 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A58DFC1A1F92AB4CB81DB /* Event.swift */; };
+		4B7A5BC77DEB7E3A00E71B4A /* ListEventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */; };
+		4B7A5D8C3FFF154870841B13 /* ListEventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */; };
+		4B7A5F4119A0CC422A215DA2 /* ListEventsPresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A55C2F99C7D8AC3FDD31E /* ListEventsPresenterSpy.swift */; };
 		4B7A5F9891BEAA384BCAA266 /* FestivalDancaJlleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7A5FDECB9BFAFF729B77CB /* FestivalDancaJlleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B7A5F9DFECC0A0577CEE827 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A580AA97F5CFF2DBC1555 /* Place.swift */; };
 		4B7A5FFF157A4AD22D397386 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A506F4AFD376DADA4B1EA /* Location.swift */; };
@@ -75,11 +84,17 @@
 		4B7A5059AB2C714474AE34DF /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		4B7A506F4AFD376DADA4B1EA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4B7A513086AED890C78278EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsUsecase.swift; sourceTree = "<group>"; };
 		4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsViewController.swift; sourceTree = "<group>"; };
+		4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsGateway.swift; sourceTree = "<group>"; };
+		4B7A55C2F99C7D8AC3FDD31E /* ListEventsPresenterSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsPresenterSpy.swift; sourceTree = "<group>"; };
 		4B7A574B59A61C442963C7EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4B7A5780EC7839D3969EDF17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4B7A580AA97F5CFF2DBC1555 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		4B7A58DFC1A1F92AB4CB81DB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsUsecaseTests.swift; sourceTree = "<group>"; };
+		4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsPresenter.swift; sourceTree = "<group>"; };
+		4B7A5C89852887321CB59E2E /* EventsGatewaySpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsGatewaySpy.swift; sourceTree = "<group>"; };
 		4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B7A5FDECB9BFAFF729B77CB /* FestivalDancaJlleCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FestivalDancaJlleCore.h; sourceTree = "<group>"; };
 		78B4B4DCD5944CFF434A8905 /* Pods-FestivalDancaJlle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalDancaJlle.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalDancaJlle/Pods-FestivalDancaJlle.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				34FC34361D151A1600F12CCD /* Info.plist */,
+				4B7A56850ED7F247B8A08239 /* Usecases */,
+				4B7A5AD738352513CE25CBF3 /* Mocks */,
 			);
 			path = FestivalDancaJlleCoreTests;
 			sourceTree = "<group>";
@@ -189,6 +206,15 @@
 		4B7A513536036E29DB0E818E /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		4B7A516A988FA052766A8418 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A55C2F99C7D8AC3FDD31E /* ListEventsPresenterSpy.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -196,6 +222,7 @@
 		4B7A51BD1F28F9B2B5665D01 /* Usecases */ = {
 			isa = PBXGroup;
 			children = (
+				4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */,
 			);
 			path = Usecases;
 			sourceTree = "<group>";
@@ -212,11 +239,37 @@
 			path = ApplicationBase;
 			sourceTree = "<group>";
 		};
+		4B7A56850ED7F247B8A08239 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
 		4B7A57F4C57DD83FA83C4789 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
+				4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */,
 			);
 			path = Gateways;
+			sourceTree = "<group>";
+		};
+		4B7A58797F5882256BA20EAD /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A5C89852887321CB59E2E /* EventsGatewaySpy.swift */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		4B7A5AD738352513CE25CBF3 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A516A988FA052766A8418 /* Presenters */,
+				4B7A58797F5882256BA20EAD /* Gateways */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		4B7A5B096A0AA15B37356513 /* Views */ = {
@@ -476,6 +529,9 @@
 				4B7A5ACE4CF474D43568E002 /* Event.swift in Sources */,
 				4B7A5F9DFECC0A0577CEE827 /* Place.swift in Sources */,
 				4B7A5FFF157A4AD22D397386 /* Location.swift in Sources */,
+				4B7A50327D20F96EC99DFACE /* ListEventsUsecase.swift in Sources */,
+				4B7A5031AF6EAEC2045E8B4F /* EventsGateway.swift in Sources */,
+				4B7A5D8C3FFF154870841B13 /* ListEventsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +542,12 @@
 				4B7A54BC5440645FBE174D22 /* Event.swift in Sources */,
 				4B7A56A61E652CAE371AF7FA /* Place.swift in Sources */,
 				4B7A54FF1C9F218B8C36FA42 /* Location.swift in Sources */,
+				4B7A59926C219385C6E95EDA /* ListEventsUsecase.swift in Sources */,
+				4B7A50EA2C47745E6F6EDCCF /* EventsGateway.swift in Sources */,
+				4B7A5BC77DEB7E3A00E71B4A /* ListEventsPresenter.swift in Sources */,
+				4B7A5A6A0DC21DDF4324EB4A /* ListEventsUsecaseTests.swift in Sources */,
+				4B7A53E5CFB3CD38036B782C /* EventsGatewaySpy.swift in Sources */,
+				4B7A5F4119A0CC422A215DA2 /* ListEventsPresenterSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
