@@ -5,8 +5,7 @@ import FestivalDancaJlleCore
 class ListEventsUsecaseFactory {
 
     static func make(listEventsPresenter: ListEventsPresenter) -> ListEventsUsecase {
-        let token = FBSDKAccessToken.currentAccessToken().tokenString
-        let eventsGateway = EventsGatewayFacebook(token: token)
+        let eventsGateway = EventsGatewayFacebook()
         return ListEventsUsecase(
             eventsGateway: eventsGateway,
             listEventsPresenter: listEventsPresenter)

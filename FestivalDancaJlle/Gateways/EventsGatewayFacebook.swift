@@ -4,12 +4,6 @@ import FestivalDancaJlleCore
 
 class EventsGatewayFacebook: EventsGateway {
 
-    var token: String
-
-    init(token: String) {
-        self.token = token
-    }
-
     func list(successHandler: (events: [Event]) -> (), errorHandler: (error: NSError) -> ()) {
         let graphRequest = FBSDKGraphRequest(
             graphPath: "/festivaldedancajoinville/events",
