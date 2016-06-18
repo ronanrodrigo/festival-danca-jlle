@@ -8,8 +8,7 @@ class ListEventsViewController: UIViewController {
     }
 
     @IBAction func didTappedAtLoginButton(sender: AnyObject) {
-        let login = FBSDKLoginManager()
-        login.logInWithReadPermissions([""], fromViewController: self,
+        FBSDKLoginManager().logInWithReadPermissions([""], fromViewController: self,
             handler: { (result: FBSDKLoginManagerLoginResult?, error: NSError?) in
                 if error != nil {
                     print("Process error")
