@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343778A91D15A4AF009A2DA5 /* StringLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343778A81D15A4AF009A2DA5 /* StringLocalized.swift */; };
 		34C88B7D1D151C0B00648E04 /* EventsNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C88B7C1D151C0B00648E04 /* EventsNavigationViewController.swift */; };
 		34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC34161D15168300F12CCD /* LaunchScreen.storyboard */; };
 		34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FC341C1D15187400F12CCD /* ListEventsViewController.xib */; };
@@ -85,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		343778A81D15A4AF009A2DA5 /* StringLocalized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLocalized.swift; sourceTree = "<group>"; };
 		34C88B7C1D151C0B00648E04 /* EventsNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsNavigationViewController.swift; sourceTree = "<group>"; };
 		34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalDancaJlle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC34171D15168300F12CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */ = {
 			isa = PBXGroup;
 			children = (
+				343778A81D15A4AF009A2DA5 /* StringLocalized.swift */,
 				4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */,
 				4B7A513086AED890C78278EA /* Assets.xcassets */,
 				4B7A5059AB2C714474AE34DF /* BridgingHeader.h */,
@@ -559,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343778A91D15A4AF009A2DA5 /* StringLocalized.swift in Sources */,
 				34C88B7D1D151C0B00648E04 /* EventsNavigationViewController.swift in Sources */,
 				4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */,
 				4B7A5A79B226EA9FA8EF6627 /* ListEventsViewController.swift in Sources */,

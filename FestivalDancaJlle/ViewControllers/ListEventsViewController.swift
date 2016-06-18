@@ -26,7 +26,7 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
     }
 
     func cancel() {
-        loginButton.setTitle("Tente entrar novamente", forState: .Normal)
+        loginButton.setTitle("try_login_again".localized, forState: .Normal)
     }
 
     func success(token: String, userID: String) {
