@@ -4,11 +4,11 @@ import XCTest
 class LoginWithFacebookUsecaseTests: XCTestCase {
 
     var loginWithFacebookUsecase: LoginWithFacebookUsecase!
-    var facebookLoginGatewaySpy: FacebookLoginGatewaySpy!
+    var facebookLoginGatewaySpy: LoginGatewaySpy!
     var loginWithFacebookPresenterSpy: LoginWithFacebookPresenterSpy!
 
     override func setUp() {
-        facebookLoginGatewaySpy = FacebookLoginGatewaySpy()
+        facebookLoginGatewaySpy = LoginGatewaySpy()
         loginWithFacebookPresenterSpy = LoginWithFacebookPresenterSpy()
         loginWithFacebookUsecase = LoginWithFacebookUsecase(
             facebookLoginGateway: facebookLoginGatewaySpy,

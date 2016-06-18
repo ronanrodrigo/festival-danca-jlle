@@ -2,7 +2,7 @@ import Foundation
 import FBSDKLoginKit
 import FestivalDancaJlleCore
 
-class FacebookLoginGatewayAPI: FacebookLoginGateway {
+class LoginGatewayFacebook: LoginGateway {
     var viewController: UIViewController
 
     init(viewController: UIViewController) {

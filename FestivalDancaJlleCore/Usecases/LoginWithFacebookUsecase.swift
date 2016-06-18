@@ -2,10 +2,10 @@ import Foundation
 
 public struct LoginWithFacebookUsecase {
 
-    var facebookLoginGateway: FacebookLoginGateway
+    var facebookLoginGateway: LoginGateway
     var loginWithFacebookPresenter: LoginWithFacebookPresenter
 
-    public init(facebookLoginGateway: FacebookLoginGateway, loginWithFacebookPresenter: LoginWithFacebookPresenter) {
+    public init(facebookLoginGateway: LoginGateway, loginWithFacebookPresenter: LoginWithFacebookPresenter) {
         self.facebookLoginGateway = facebookLoginGateway
         self.loginWithFacebookPresenter = loginWithFacebookPresenter
     }

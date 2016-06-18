@@ -1,6 +1,6 @@
 import Foundation
 
-class FacebookLoginGatewaySpy: FacebookLoginGateway {
+class LoginGatewaySpy: LoginGateway {
     var loginSpied = false
     var shouldSuccessed = true
     var shouldError = false

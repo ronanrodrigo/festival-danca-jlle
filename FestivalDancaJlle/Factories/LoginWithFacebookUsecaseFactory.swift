@@ -5,7 +5,7 @@ class LoginWithFacebookUsecaseFactory {
 
     static func make(viewController: UIViewController, presenter: LoginWithFacebookPresenter) ->
             LoginWithFacebookUsecase {
-        let gateway = FacebookLoginGatewayAPI(viewController: viewController)
+        let gateway = LoginGatewayFacebook(viewController: viewController)
         return LoginWithFacebookUsecase(
             facebookLoginGateway: gateway,
             loginWithFacebookPresenter: presenter
