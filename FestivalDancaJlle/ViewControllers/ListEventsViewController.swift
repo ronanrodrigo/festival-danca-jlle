@@ -20,7 +20,7 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
     // MARK: LoginWithFacebookPresenter
 
     func error(error: NSError) {
-        print(error.description())
+        print(error.description)
     }
 
     func cancel() {
