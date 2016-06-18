@@ -7,6 +7,7 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter, Li
     // MARK: Properties
 
     private var eventsTableViewDataSource: EventsTableViewDataSource?
+    private let eventCellIdentifier = String(EventTableViewCell)
 
     // MARK: Outlets
 
@@ -18,6 +19,7 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter, Li
     override func viewDidLoad() {
         super.viewDidLoad()
         configureSession()
+        configureTableView()
     }
 
     private func configureSession() {
@@ -25,6 +27,11 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter, Li
             loginButton.hidden = true
             ListEventsUsecaseFactory.make(self).list()
         }
+    }
+
+    private func configureTableView() {
+        eventsTableView.registerNib(
+            UINib(nibName: eventCellIdentifier, bundle: nil), forCellReuseIdentifier: eventCellIdentifier)
     }
 
     // MARK: Actions

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		343778A91D15A4AF009A2DA5 /* StringLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343778A81D15A4AF009A2DA5 /* StringLocalized.swift */; };
+		3454A2C51D15D13400DC9234 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454A2C31D15D13400DC9234 /* EventTableViewCell.swift */; };
+		3454A2C61D15D13400DC9234 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3454A2C41D15D13400DC9234 /* EventTableViewCell.xib */; };
+		3454A2C81D15D4D100DC9234 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454A2C71D15D4D100DC9234 /* RoundedImage.swift */; };
 		34C88B7D1D151C0B00648E04 /* EventsNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C88B7C1D151C0B00648E04 /* EventsNavigationViewController.swift */; };
 		34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC34161D15168300F12CCD /* LaunchScreen.storyboard */; };
 		34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FC341C1D15187400F12CCD /* ListEventsViewController.xib */; };
@@ -91,6 +94,9 @@
 
 /* Begin PBXFileReference section */
 		343778A81D15A4AF009A2DA5 /* StringLocalized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLocalized.swift; sourceTree = "<group>"; };
+		3454A2C31D15D13400DC9234 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		3454A2C41D15D13400DC9234 /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		3454A2C71D15D4D100DC9234 /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		34C88B7C1D151C0B00648E04 /* EventsNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsNavigationViewController.swift; sourceTree = "<group>"; };
 		34DB45951D1514BB00447FD7 /* FestivalDancaJlle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalDancaJlle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC34171D15168300F12CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -271,6 +277,7 @@
 				4B7A574B59A61C442963C7EE /* Info.plist */,
 				34FC34161D15168300F12CCD /* LaunchScreen.storyboard */,
 				4B7A58EA009E556410F5D207 /* Localizable.strings */,
+				3454A2C71D15D4D100DC9234 /* RoundedImage.swift */,
 			);
 			path = ApplicationBase;
 			sourceTree = "<group>";
@@ -324,6 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				34FC341C1D15187400F12CCD /* ListEventsViewController.xib */,
+				3454A2C31D15D13400DC9234 /* EventTableViewCell.swift */,
+				3454A2C41D15D13400DC9234 /* EventTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -485,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3454A2C61D15D13400DC9234 /* EventTableViewCell.xib in Resources */,
 				34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */,
 				4B7A5668212369C0F9F4CC09 /* Assets.xcassets in Resources */,
 				34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */,
@@ -583,6 +593,8 @@
 				4B7A520A04B6B6A2BB965D8F /* LoginWithFacebookUsecaseFactory.swift in Sources */,
 				4B7A5396191597D0E2642274 /* EventsGatewayFacebook.swift in Sources */,
 				4B7A5EC3D4F4E774011DF722 /* ListEventsUsecaseFactory.swift in Sources */,
+				3454A2C51D15D13400DC9234 /* EventTableViewCell.swift in Sources */,
+				3454A2C81D15D4D100DC9234 /* RoundedImage.swift in Sources */,
 				4B7A5CECB0170E26188AB40D /* EventsTableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

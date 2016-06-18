@@ -6,18 +6,12 @@ class EventsTableViewDataSource: NSObject, UITableViewDataSource {
     // MARK: Properties
 
     private let events: [Event]
-    private let cellIdentifier = "EventTableViewCell"
+    private let eventCellIdentifier = String(EventTableViewCell)
 
     // MARK: Initializers
 
     init(events: [Event]) {
         self.events = events
-    }
-
-    // MARK: Setup
-
-    func configureListEventsUsecase() {
-
     }
 
     // MARK: TableViewDataSource
@@ -28,12 +22,12 @@ class EventsTableViewDataSource: NSObject, UITableViewDataSource {
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let event = events[indexPath.row]
-        if let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) {
-            cell.textLabel!.text = event.name
+        if let cell = tableView.dequeueReusableCellWithIdentifier(eventCellIdentifier) as? EventTableViewCell {
+            cell.configure(event)
             return cell
         } else {
-            let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellIdentifier)
-            cell.textLabel!.text = event.name
+            let cell = EventTableViewCell()
+            cell.configure(event)
             return cell
         }
     }
