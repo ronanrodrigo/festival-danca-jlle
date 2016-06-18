@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListEventsViewController" customModule="FestivalDancaJlle" customModuleProvider="target">
             <connections>
+                <outlet property="eventsTableView" destination="6Nt-7J-4xy" id="sQZ-1P-I4D"/>
                 <outlet property="loginButton" destination="aOf-yD-Dl7" id="0PL-Gn-CpP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -16,12 +17,10 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ListEventsViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8Q-D8-Tqa">
-                    <rect key="frame" x="205" y="289" width="191" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Nt-7J-4xy">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOf-yD-Dl7">
                     <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,8 +41,10 @@
                 <constraint firstAttribute="trailing" secondItem="aOf-yD-Dl7" secondAttribute="trailing" id="516-gi-VQl"/>
                 <constraint firstItem="aOf-yD-Dl7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Mjf-1u-MBC"/>
                 <constraint firstAttribute="bottom" secondItem="aOf-yD-Dl7" secondAttribute="bottom" id="Pox-uz-dF0"/>
-                <constraint firstItem="j8Q-D8-Tqa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Rzo-wC-qQW"/>
-                <constraint firstItem="j8Q-D8-Tqa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zOR-lz-f1w"/>
+                <constraint firstAttribute="trailing" secondItem="6Nt-7J-4xy" secondAttribute="trailing" id="n9v-VY-AK8"/>
+                <constraint firstItem="6Nt-7J-4xy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qHL-ea-1L3"/>
+                <constraint firstAttribute="bottom" secondItem="6Nt-7J-4xy" secondAttribute="bottom" id="qKr-Kn-KCB"/>
+                <constraint firstItem="6Nt-7J-4xy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rxl-eQ-INe"/>
             </constraints>
         </view>
     </objects>

@@ -2,11 +2,16 @@ import UIKit
 import FBSDKLoginKit
 import FestivalDancaJlleCore
 
-class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
+class ListEventsViewController: UIViewController, LoginWithFacebookPresenter, ListEventsPresenter {
+
+    // MARK: Properties
+
+    private var eventsTableViewDataSource: EventsTableViewDataSource?
 
     // MARK: Outlets
 
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var eventsTableView: UITableView!
 
     // MARK: Setup
 
@@ -18,6 +23,7 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
     private func configureSession() {
         if FBSDKAccessToken.currentAccessToken() != nil {
             loginButton.hidden = true
+            ListEventsUsecaseFactory.make(self).list()
         }
     }
 
@@ -27,18 +33,30 @@ class ListEventsViewController: UIViewController, LoginWithFacebookPresenter {
         LoginWithFacebookUsecaseFactory.make(self, presenter: self).login()
     }
 
-    // MARK: LoginWithFacebookPresenter
+    // MARK: LoginWithFacebookPresenter & ListEventsPresenter
 
     func error(error: NSError) {
         print(error.description)
     }
+
+    // MARK: LoginWithFacebookPresenter
 
     func cancel() {
         loginButton.setTitle("try_login_again".localized, forState: .Normal)
     }
 
     func success(token: String, userID: String) {
-        loginButton.hidden = true
+        configureSession()
+    }
+
+    // MARK: ListEventsPresenter
+
+    func success(events: [Event]) {
+        eventsTableViewDataSource = EventsTableViewDataSource(events: events)
+        if let eventsTableViewDataSource = eventsTableViewDataSource {
+            eventsTableView.dataSource = eventsTableViewDataSource
+            eventsTableView.reloadData()
+        }
     }
 
 }
