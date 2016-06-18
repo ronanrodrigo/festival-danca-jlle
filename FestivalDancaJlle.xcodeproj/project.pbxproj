@@ -11,7 +11,6 @@
 		34FC34181D15168300F12CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC34161D15168300F12CCD /* LaunchScreen.storyboard */; };
 		34FC341E1D15187400F12CCD /* ListEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FC341C1D15187400F12CCD /* ListEventsViewController.xib */; };
 		34FC342E1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
-		34FC34351D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */; };
 		34FC34391D151A1600F12CCD /* FestivalDancaJlleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; };
 		34FC343A1D151A1600F12CCD /* FestivalDancaJlleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */; };
@@ -72,7 +71,6 @@
 		34FC341C1D15187400F12CCD /* ListEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListEventsViewController.xib; sourceTree = "<group>"; };
 		34FC34241D151A1600F12CCD /* FestivalDancaJlleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FestivalDancaJlleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC342D1D151A1600F12CCD /* FestivalDancaJlleCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalDancaJlleCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalDancaJlleCoreTests.swift; sourceTree = "<group>"; };
 		34FC34361D151A1600F12CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7A5059AB2C714474AE34DF /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		4B7A506F4AFD376DADA4B1EA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 		34FC34331D151A1600F12CCD /* FestivalDancaJlleCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				34FC34341D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift */,
 				34FC34361D151A1600F12CCD /* Info.plist */,
 			);
 			path = FestivalDancaJlleCoreTests;
@@ -486,7 +483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FC34351D151A1600F12CCD /* FestivalDancaJlleCoreTests.swift in Sources */,
 				4B7A54BC5440645FBE174D22 /* Event.swift in Sources */,
 				4B7A56A61E652CAE371AF7FA /* Place.swift in Sources */,
 				4B7A54FF1C9F218B8C36FA42 /* Location.swift in Sources */,
