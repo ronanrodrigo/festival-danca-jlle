@@ -7,6 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListEventsViewController" customModule="FestivalDancaJlle" customModuleProvider="target">
             <connections>
+                <outlet property="loginButton" destination="aOf-yD-Dl7" id="0PL-Gn-CpP"/>
+                <outlet property="loginButtonBottom" destination="Pox-uz-dF0" id="meV-ig-VEB"/>
+                <outlet property="loginButtonHeight" destination="b6Z-gB-Kry" id="ge0-8K-t9R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -32,7 +35,7 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <connections>
-                        <action selector="didTappedAtLogin:" destination="-1" eventType="touchUpInside" id="jdf-dt-fmW"/>
+                        <action selector="didTappedAtLogin:" destination="-1" eventType="touchUpInside" id="96D-G3-Nk4"/>
                     </connections>
                 </button>
             </subviews>

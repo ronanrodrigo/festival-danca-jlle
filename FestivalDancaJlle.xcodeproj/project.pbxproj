@@ -17,6 +17,7 @@
 		4B7A50327D20F96EC99DFACE /* ListEventsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */; };
 		4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5FCC4471B7D437FEA386 /* AppDelegate.swift */; };
 		4B7A50EA2C47745E6F6EDCCF /* EventsGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */; };
+		4B7A520A04B6B6A2BB965D8F /* LoginWithFacebookUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A525C9CB115A2E86412B4 /* LoginWithFacebookUsecaseFactory.swift */; };
 		4B7A53E5CFB3CD38036B782C /* EventsGatewaySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5C89852887321CB59E2E /* EventsGatewaySpy.swift */; };
 		4B7A54BC5440645FBE174D22 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A58DFC1A1F92AB4CB81DB /* Event.swift */; };
 		4B7A54FF1C9F218B8C36FA42 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A506F4AFD376DADA4B1EA /* Location.swift */; };
@@ -28,6 +29,7 @@
 		4B7A58DFFACFD6A29916E3AF /* LoginWithFacebookUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A515AA79F6DAEEF6CFCDF /* LoginWithFacebookUsecaseTests.swift */; };
 		4B7A59926C219385C6E95EDA /* ListEventsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */; };
 		4B7A59C9A595C720F420054F /* LoginWithFacebookPresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A578AF9F7AB5E391C67AE /* LoginWithFacebookPresenterSpy.swift */; };
+		4B7A5A1F9D6C5AE2C4264E3A /* FacebookLoginGatewayAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5B905126826B7C7BEFF2 /* FacebookLoginGatewayAPI.swift */; };
 		4B7A5A6A0DC21DDF4324EB4A /* ListEventsUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */; };
 		4B7A5A79B226EA9FA8EF6627 /* ListEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */; };
 		4B7A5ACE4CF474D43568E002 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A58DFC1A1F92AB4CB81DB /* Event.swift */; };
@@ -95,6 +97,7 @@
 		4B7A513086AED890C78278EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7A515AA79F6DAEEF6CFCDF /* LoginWithFacebookUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookUsecaseTests.swift; sourceTree = "<group>"; };
 		4B7A51DF69724FBAD5FBECCC /* ListEventsUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsUsecase.swift; sourceTree = "<group>"; };
+		4B7A525C9CB115A2E86412B4 /* LoginWithFacebookUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookUsecaseFactory.swift; sourceTree = "<group>"; };
 		4B7A5326437983C019A64B15 /* LoginWithFacebookPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookPresenter.swift; sourceTree = "<group>"; };
 		4B7A545160AB79562FD44C4D /* ListEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsViewController.swift; sourceTree = "<group>"; };
 		4B7A558C3AE93EA35C30D792 /* EventsGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsGateway.swift; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		4B7A58DFC1A1F92AB4CB81DB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4B7A5984607C72BBE4BFBB2E /* FacebookLoginGatewaySpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginGatewaySpy.swift; sourceTree = "<group>"; };
 		4B7A5AD1BB141B3457053E6A /* ListEventsUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsUsecaseTests.swift; sourceTree = "<group>"; };
+		4B7A5B905126826B7C7BEFF2 /* FacebookLoginGatewayAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginGatewayAPI.swift; sourceTree = "<group>"; };
 		4B7A5C0829AE0B6172CEA31B /* ListEventsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventsPresenter.swift; sourceTree = "<group>"; };
 		4B7A5C89852887321CB59E2E /* EventsGatewaySpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsGatewaySpy.swift; sourceTree = "<group>"; };
 		4B7A5C9A9503746632273ABC /* LoginWithFacebookUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithFacebookUsecase.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				4B7A53B1CD069A810FFFAFD2 /* ApplicationBase */,
 				4B7A5CFF047655D40032904F /* ViewControllers */,
 				4B7A5B096A0AA15B37356513 /* Views */,
+				4B7A56805B76133CF9CB943D /* Factories */,
+				4B7A5C1CBF78F63D7417CBD3 /* Gateways */,
 			);
 			path = FestivalDancaJlle;
 			sourceTree = "<group>";
@@ -257,6 +263,14 @@
 			path = ApplicationBase;
 			sourceTree = "<group>";
 		};
+		4B7A56805B76133CF9CB943D /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A525C9CB115A2E86412B4 /* LoginWithFacebookUsecaseFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 		4B7A56850ED7F247B8A08239 /* Usecases */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +313,14 @@
 				34FC341C1D15187400F12CCD /* ListEventsViewController.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4B7A5C1CBF78F63D7417CBD3 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				4B7A5B905126826B7C7BEFF2 /* FacebookLoginGatewayAPI.swift */,
+			);
+			path = Gateways;
 			sourceTree = "<group>";
 		};
 		4B7A5CFF047655D40032904F /* ViewControllers */ = {
@@ -540,6 +562,8 @@
 				34C88B7D1D151C0B00648E04 /* EventsNavigationViewController.swift in Sources */,
 				4B7A50C7C45FAAF65FC0FAD1 /* AppDelegate.swift in Sources */,
 				4B7A5A79B226EA9FA8EF6627 /* ListEventsViewController.swift in Sources */,
+				4B7A5A1F9D6C5AE2C4264E3A /* FacebookLoginGatewayAPI.swift in Sources */,
+				4B7A520A04B6B6A2BB965D8F /* LoginWithFacebookUsecaseFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

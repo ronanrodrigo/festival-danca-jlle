@@ -13,7 +13,7 @@ class LoginWithFacebookPresenterSpy: LoginWithFacebookPresenter {
         cancelSpied = true
     }
 
-    func success(token: String, userID: Int) {
+    func success(token: String, userID: String) {
         successSpied = true
     }
 

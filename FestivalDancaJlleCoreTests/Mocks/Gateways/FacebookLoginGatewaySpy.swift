@@ -6,9 +6,9 @@ class FacebookLoginGatewaySpy: FacebookLoginGateway {
     var shouldError = false
     var shouldCancel = false
 
-    func login(successHandler: (token: String, userID: Int) -> (), errorHandler: (error: NSError) -> (), cancelHandler: () -> ()) {
+    func login(successHandler: (token: String, userID: String) -> (), errorHandler: (error: NSError) -> (), cancelHandler: () -> ()) {
         if shouldSuccessed {
-            successHandler(token: "", userID: 0)
+            successHandler(token: "", userID: "")
         } else if shouldError {
             errorHandler(error: NSError(domain: "", code: 0, userInfo: nil))
         } else if shouldCancel {
